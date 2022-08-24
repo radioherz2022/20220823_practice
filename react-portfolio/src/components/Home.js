@@ -4,8 +4,9 @@ export default function Home(){
     return (
     <Block>
         <IntroText>
-        <h1>Hi, my name is Your Name <br/>
-        I'm the Unknown Developer. </h1>
+        <h1>We are digital expert<br/>
+                who will make<br/>
+                your business greater. </h1>
         <button>know more</button>
         </IntroText>
     </Block>
