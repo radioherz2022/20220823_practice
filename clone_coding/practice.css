@@ -1,0 +1,185 @@
+*{
+    color: inherit;
+}
+
+a{
+    text-decoration: none;
+}
+
+#headerBasic {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width:100%;
+    margin-top: 30px;
+    position: absolute;
+    z-index: 100;
+    position: fixed;
+}
+
+#headerBasic h1{
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+
+.sideBtn {
+    background: url(./btn_menu.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+    font-size:26px;
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    text-align: center;
+    margin-right: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.sideBtn.active{
+    background: url(./btn_close.png);
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: center;
+    font-size:26px;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    text-align: center;
+    margin-right: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.navBox {
+    width:100vw;
+    height:100vh;
+    transform: translateY(-100vh);
+    position:absolute;
+    background-color: blueviolet;
+    z-index: 1;
+    transition: transform 0.4s ease-in-out;
+}
+
+.navBox.on {
+    transform: translateY(0);
+}
+
+.navBox .navList {
+    width:100vw;
+    color:#fff;
+    font-size: 70px;
+    line-height: 100px;
+    font-weight: 700;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+
+#mainVisual {
+    width: 100vw;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#mainVisual .mainTitle {
+
+    margin-left: 100px;
+    position: absolute;
+}
+
+#mainVisual .mainTitle p {
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+#mainVisual .mainTitle .goBtn {
+    font-size: 20px;
+    width: 120px;
+    height: 120px;
+    line-height: 115px;
+    text-align: center;
+    color: #fff;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+
+#mainVisual .mainBg {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://api.emotion.co.kr/upload/WORKS/PC/2022/8/00_keyvisual_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#contentList {
+    width: 100%;
+    display: inline-block;
+
+}
+
+.textBox {
+    font-size: 30px;
+    margin: 30px 0 0 100px;
+    line-height: 40px;
+    font-weight: 900;
+    color:#bbb;
+}
+
+.listBoxContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.listBox1{
+    margin:0 40px;
+}
+
+.listBox2{
+    margin:50px 40px;
+}
+
+.listBox1 .thumb {
+    width:400px;
+    height:350px;
+    background-color: wheat;
+    overflow: hidden;
+
+}
+
+.listBox2 .thumb {
+    width:400px;
+    height:560px;
+    background-color: wheat;
+    overflow: hidden;
+}
+
+.info h3{
+    margin-top: 1.2em;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.info p{
+    margin: 0.4em 0 0.8em;
+    font-size:0.9em;
+    color:#bbb;
+}
+
+.info span{
+    text-decoration: underline;
+
+}
+
