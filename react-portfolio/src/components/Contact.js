@@ -33,12 +33,12 @@ p{
     line-height: 2em;
 }
 button{
-    width: 130px;
-    height: 50px;
+    padding: 0.8rem 1.6rem;
     font-size: 1.2em;
     font-weight: 700;
     border: 3px solid #000;
     cursor: pointer;
+    user-select: none;
 }
 
 `

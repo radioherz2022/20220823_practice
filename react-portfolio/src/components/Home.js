@@ -23,7 +23,7 @@ let Block = styled.div`
 `
 
 const IntroText = styled.div`
-text-align: center;
+    text-align: center;
     h1{
         font-size: 3.6em;
         font-weight: 700;
@@ -31,11 +31,11 @@ text-align: center;
         margin-bottom: 50px;
     }
     button{
-        width: 130px;
-        height: 50px;
+        padding: 0.8rem 1.6rem;
         font-size: 1.2em;
         font-weight: 700;
         border: 3px solid #000;
         cursor: pointer;
+        user-select: none;
     }
 `
