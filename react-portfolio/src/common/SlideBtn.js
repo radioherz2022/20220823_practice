@@ -4,7 +4,7 @@ import {BsFillArrowUpSquareFill} from "react-icons/bs"
 export default function SlideBtn(){
     return (
     <Block>
-        <BsFillArrowUpSquareFill/>
+        <BsFillArrowUpSquareFill onClick ={() => window.scrollTo({top:0, left:0, behavior:"smooth"})}/>
     </Block>
     ) 
 }

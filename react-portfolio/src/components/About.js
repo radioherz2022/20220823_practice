@@ -31,12 +31,18 @@ h2{
     font-weight: 700;
     text-align: center;
     padding-top: 100px;
+    animation: fadein 2s;
+    @keyframes fadein {
+        from {transform:translateX(-10px); opacity: 0;}
+        to {transform:translateX(0); opacity: 1;}
+    }
 }
 p{
     text-align: center;
     margin: 30px 180px;
     font-size: 1.3em;
     line-height: 2em;
+    animation: fadein 2s 0.4s;
 }
 
 `
