@@ -95,6 +95,7 @@ const InputBox = styled.div`
 
 const CommentText = styled.ul`
     text-align: center;
+    margin-left: 312px;
 `
 
 const ComList = styled.li`
