@@ -8,31 +8,29 @@ export default function WorkList(){
         [{
             title: "Button Designs Free",
             sub_title: "dddddddddd",
-            imgUrl:"img/sample1.jpg"
+            img_url:"./img/sample1.jpg"
             },{
             title: "Branding for Theme Designer",
             sub_title: "jjjjjjjjjjjjj",
-            imgUrl:"img/sample2.jpg"
+            img_url:"./img/sample2.jpg"
             },{
             title: "BBBBB",
             sub_title: "aaaaa",
-            imgUrl:"img/sample3.jpg"
+            img_url:"./img/sample3.jpg"
             }
-            ]
+        ]
     )
     return (
     <Block>
         {thumbList.map((list) => (
             <ListBox>
-            <ImgBox><img src="{list.imgUrl}" alt=""></img></ImgBox>
-            <DescBox>
-                <h3>{list.title}</h3>
-                <p>{list.sub_title}</p>
-            </DescBox>
-        </ListBox>
-
+                <ImgBox><img src="{list.img_url}" alt="img"></img></ImgBox>
+                <DescBox>
+                    <h3>{list.title}</h3>
+                    <p>{list.sub_title}</p>
+                </DescBox>
+            </ListBox>
         ))}
-
     </Block>
     )
 }
