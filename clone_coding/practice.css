@@ -166,6 +166,14 @@ a{
     overflow: hidden;
 }
 
+.listAno .thumb {
+    width:400px;
+    height:350px;
+    background-color: wheat;
+    overflow: hidden;
+}
+
+
 .info h3{
     margin-top: 1.2em;
     font-size: 1.3em;

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        #main{
+          width: 700px;
+          height: 450px;
+          margin: 0 auto;
+          text-align: center;
+        }
+      </style>
+      <script type="text/javascript"> 
+        var curIndex = 0; 
+        var timeInterval = 1000; 
+        var arr = new Array(); 
+        arr[0] = "img/sample1.jpg"; 
+        arr[1] = "img/sample2.jpg"; 
+        arr[2] = "img/sample3.jpg"; 
+        arr[3] = "img/sample1.jpg"; 
+        arr[4] = "img/sample2.jpg"; 
+        setInterval(changeImg,timeInterval); 
+        function changeImg() { 
+           var obj = document.getElementById("imge"); 
+           if (curIndex == arr.length-1) { 
+             curIndex = 0; 
+           } else { 
+             curIndex += 1; 
+           } 
+           obj.src = arr[curIndex]; 
+        } 
+      </script> 
+</head>
+<body>
+    <div id="main">
+        <h1>            </h1>
+        <img id = "imge" src = "1.png" alt="picture" /> 
+    </div>
+</body>
+</html>
