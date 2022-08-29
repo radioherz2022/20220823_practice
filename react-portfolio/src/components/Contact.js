@@ -72,7 +72,10 @@ const ContactTitle = styled.div`
 
 `
 const CommentArea = styled.div`
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 `
 
 const InputBox = styled.div`
@@ -95,7 +98,6 @@ const InputBox = styled.div`
 
 const CommentText = styled.ul`
     text-align: center;
-    margin-left: 312px;
 `
 
 const ComList = styled.li`
@@ -104,7 +106,7 @@ const ComList = styled.li`
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #bbb;
-    width:60vh;
+    width:62vh;
     height: 70px;
     line-height: 70px;
     span{
